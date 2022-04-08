@@ -10,7 +10,7 @@ Hello World!
 
 ## Heading 2
 
-[Link](https://vishaal-gaddipati.github.io/cse15l-lab-reports/)
+[Link](http://a.com)
 
 ![Image](http://url/a.png)
 
