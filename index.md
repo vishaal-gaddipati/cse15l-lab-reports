@@ -19,3 +19,12 @@ Hello World!
 * List
 * List
 
+1. One
+2. Two
+3. Three
+
+Horizontal Rule:
+
+---
+
+'Inline code' with backticks
