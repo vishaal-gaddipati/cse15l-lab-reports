@@ -1,1 +1,13 @@
-![Image](https://github.com/vishaal-gaddipati/cse15l-lab-reports/blob/main/Screenshot%20(1).png?raw=true)
+# Lab Report 1 - Week 2
+
+## Installing VScode
+
+## Remotely Connecting
+
+## Trying Some Commands
+
+## Moving Files with scp
+
+## Setting an SSH Key
+
+## Optimizing Remote Running
