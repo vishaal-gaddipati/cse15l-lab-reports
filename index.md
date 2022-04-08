@@ -11,3 +11,11 @@ Hello World!
 
 [Link](https://vishaal-gaddipati.github.io/cse15l-lab-reports/)
 
+![Image](http://url/a.png)
+
+> Blockquote
+
+* List
+* List
+* List
+
