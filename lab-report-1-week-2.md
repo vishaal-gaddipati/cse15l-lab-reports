@@ -76,5 +76,6 @@ Now you should be able to log in with **ssh** or use **scp** with no password li
 
 ---
 ### **Step 6 - Optimizing Remote Running**
+In order to make running commands more pleasant and optimized it is good to learn some common shortcuts. You can run a command at the end of an ssh command by typing it in quotes, like **"ls"**, which will log in, run the command on the server, then exit. Placing multiple commands on one line can be accompished using semicolons and the up-arrow on the keyboard recalls the previous command that was run. Here is an example of some shortcuts being used together:
 
-![Image]()
+![Image](https://github.com/vishaal-gaddipati/cse15l-lab-reports/blob/main/optimizing.jpg?raw=true)
