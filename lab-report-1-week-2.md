@@ -51,9 +51,28 @@ Log into ieng6 and run the program using **javac** and **java** to see that the 
 
 ---
 ### **Step 5 - Setting an SSH Key**
+To prevent having to type a password each time **ssh** or **scp** are used we can utilize a program called **ssh-keygen**. Here is what you should type to set it up:
+```
+# on client (your computer)
+$ ssh-keygen
+/Users/<user-name>/.ssh/id_rsa
+Hit enter twice
 
+$ ssh cs15lsp22ack@ieng6.ucsd.edu
+<Enter Password>
 
-![Image]()
+# now on server
+$ mkdir .ssh
+$ <logout>
+
+# back on client
+$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+
+# do this using your username and the path you saw in the command above
+```
+Now you should be able to log in with **ssh** or use **scp** with no password like in the image below.
+
+![Image](https://github.com/vishaal-gaddipati/cse15l-lab-reports/blob/main/keygen.jpg?raw=true)
 
 ---
 ### **Step 6 - Optimizing Remote Running**
