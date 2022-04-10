@@ -31,11 +31,27 @@ Here is an example of a command being run in the SSH terminal:
 
 ---
 ### **Step 4 - Moving Files with scp**
+We will now use the command **scp** from the *client* (your computer, not logged into ieng6). Create a file titled **WhereAmI.java** and copy paste this code into it:
+```
+class WhereAmI {
+    public static void main(String[] args) {
+        System.out.println(System.getProperty("os.name"));
+        System.out.println(System.getProperty("user.name"));
+        System.out.println(System.getProperty("user.home"));
+        System.out.println(System.getProperty("user.dir"));
+    }
+}
+```
+In the terminal within the directory where you made the file and run this command with your username:
+>scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/
 
-![Image]()
+Log into ieng6 and run the program using **javac** and **java** to see that the copy completed.
+
+![Image](https://github.com/vishaal-gaddipati/cse15l-lab-reports/blob/main/scpEx.jpg?raw=true)
 
 ---
 ### **Step 5 - Setting an SSH Key**
+
 
 ![Image]()
 
