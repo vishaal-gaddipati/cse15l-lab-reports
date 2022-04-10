@@ -1,7 +1,7 @@
 # **Lab Report 1 - Week 2**
 Tutorial for incoming 15L students about how to log into a course-specific account on *ieng6*.
 ## **Step 1 - Installing VScode**
-![Image]()
+![Image](https://github.com/vishaal-gaddipati/cse15l-lab-reports/blob/main/vscode.jpg?raw=true)
 ## **Step 2 - Remotely Connecting**
 ![Image]()
 ## **Step 3 - Trying Some Commands**
