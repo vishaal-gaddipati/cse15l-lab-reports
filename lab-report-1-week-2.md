@@ -9,14 +9,25 @@ Install Visual Studio Code from the website [https://code.visualstudio.com/](htt
 
 ---
 ### **Step 2 - Remotely Connecting**
-If you are on Windows install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). Search for your personal course specific account for CSE15L [here](https://sdacs.ucsd.edu/~icc/index.php). Next in Visual Studio Code open a terminal (Ctrl + ` or click the Terminal dropdown then New Terminal). Then with your course-specific account in the format cs15lsp22zz@ieng6.ucsd.edu replacing zz with your course account username follow the command in the image below making sure to type in your password.
+If you are on Windows install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). Search for your personal course specific account for CSE15L [here](https://sdacs.ucsd.edu/~icc/index.php). Next in Visual Studio Code open a terminal (Ctrl + ` or click the Terminal dropdown then New Terminal). Then with your course-specific account in the format cs15lsp22zz@ieng6.ucsd.edu, replacing zz with your course account username, follow the ssh command in the image below making sure to type in your password.
 
-![Image]()
+![Image](https://github.com/vishaal-gaddipati/cse15l-lab-reports/blob/main/remoteconnect.jpg?raw=true)
 
 ---
 ### **Step 3 - Trying Some Commands**
+Now that you are logged in, try some commands like **cd**, **ls**, **pwd**, **mkdir**, and **cp** in the terminal. Try these in a terminal on your own computer and in the remote terminal and compare the outputs. Try these commands as well...
+```
+cd ~
+cd
+ls -lat
+ls -a
+ls <directory>
+cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
+cat /home/linux/ieng6/cs15lsp22/public/hello.txt
+```
+Here is an example of a command being run in the SSH terminal:
 
-![Image]()
+![Image](https://github.com/vishaal-gaddipati/cse15l-lab-reports/blob/main/commandEx.jpg?raw=true)
 
 ---
 ### **Step 4 - Moving Files with scp**
