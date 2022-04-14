@@ -1,7 +1,6 @@
 # **Lab Report 1 - Week 2**
 ## Tutorial for incoming 15L students about how to log into a course-specific account on *ieng6*.
 
----
 ### **Step 1 - Installing VScode**
 Install Visual Studio Code from the website [https://code.visualstudio.com/](https://code.visualstudio.com/) by clicking the download button for your specfic operating system. Download the setup file and follow the steps to install VSCode on your system.
 
@@ -43,7 +42,9 @@ class WhereAmI {
 }
 ```
 In the terminal within the directory where you made the file and run this command with your username:
->scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/
+```
+scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/
+```
 
 Log into ieng6 and run the program using **javac** and **java** to see that the copy completed.
 
