@@ -1,2 +1,2 @@
 # **Lab Report 2 - Week 4**
-##
+## In this lab report I will show 3 code changes to a Markdown parser implementation for web links that prevents some bugs and their symptoms based on failure-inducing inputs.
