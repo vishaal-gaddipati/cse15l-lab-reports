@@ -21,4 +21,14 @@ Even the *scp* command is quicker to type utilizing the alias I put into the con
 
 ---
 ### **Group Choice 2 - Setup Github Access from ieng6**
-The second option is Set up Github Access from ieng6. 
+The second option is Set up Github Access from ieng6. Copying a public key from ssh-keygen to Github from my course-specific account allows for me to push to Github from the *ieng6* machines.
+
+This is where the public key I made is stored on Github in my user account.
+
+[Image]()
+
+T
+
+Here is the [commit](https://github.com/vishaal-gaddipati/markdown-parser/commit/adbff963a92c77412b72e5c87a3a06d375ceac29):
+
+![Image]()
