@@ -18,3 +18,7 @@ $ ssh cs15lsp22ack@ieng6.ucsd.edu
 Even the *scp* command is quicker to type utilizing the alias I put into the config file. It copies a java file to the ieng6 server in fewer characters.
 
 ![Image](https://github.com/vishaal-gaddipati/cse15l-lab-reports/blob/main/Screenshots/Lab%203/scpAlias.jpg?raw=true)
+
+---
+### **Group Choice 2 - Setup Github Access from ieng6**
+The second option is Set up Github Access from ieng6. 
