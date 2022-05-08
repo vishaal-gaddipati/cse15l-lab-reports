@@ -42,4 +42,16 @@ Here is the [commit](https://github.com/vishaal-gaddipati/markdown-parser/commit
 
 ---
 ### **Group Choice 3 - Copy whole directories with *scp -r***
-The third option is Copy Whole Directories with *scp -r*.
+The third option is Copy Whole Directories with *scp -r*. Running the *scp -r* commands allows for an entire directory to be copied saving time from copying each individual file.
+
+Here is the whole markdown-parse directory being copied to my ieng6 account.
+
+![Image](https://github.com/vishaal-gaddipati/cse15l-lab-reports/blob/main/Screenshots/Lab%203/copyDir.jpg?raw=true)
+
+Here is the tests being compiled and run in the directory that was just copied into my ieng6 account.
+
+![Image](https://github.com/vishaal-gaddipati/cse15l-lab-reports/blob/main/Screenshots/Lab%203/iengRun.jpg?raw=true)
+
+The long line of code below combines *scp*, *;*, and *ssh* to copy the whole directory and run the tests in one line.
+
+![Image](https://github.com/vishaal-gaddipati/cse15l-lab-reports/blob/main/Screenshots/Lab%203/combinedRun.jpg?raw=true)
