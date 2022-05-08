@@ -25,10 +25,21 @@ The second option is Set up Github Access from ieng6. Copying a public key from 
 
 This is where the public key I made is stored on Github in my user account.
 
-[Image]()
+![Image](https://github.com/vishaal-gaddipati/cse15l-lab-reports/blob/main/Screenshots/Lab%203/pubKey.jpg?raw=true)
 
-T
+The private key is stored here in my user account.
+
+![Image](https://github.com/vishaal-gaddipati/cse15l-lab-reports/blob/main/Screenshots/Lab%203/privKey.jpg?raw=true)
+
+Here is the *git* commands being run while being logged into the ieng6 account. A commit is made and it is pushed to Github.
+
+![Image](https://github.com/vishaal-gaddipati/cse15l-lab-reports/blob/main/Screenshots/Lab%203/gitCom1.jpg?raw=true)
+![Image](https://github.com/vishaal-gaddipati/cse15l-lab-reports/blob/main/Screenshots/Lab%203/gitCom2.jpg?raw=true)
 
 Here is the [commit](https://github.com/vishaal-gaddipati/markdown-parser/commit/adbff963a92c77412b72e5c87a3a06d375ceac29):
 
-![Image]()
+![Image](https://github.com/vishaal-gaddipati/cse15l-lab-reports/blob/main/Screenshots/Lab%203/resulCom.jpg?raw=true)
+
+---
+### **Group Choice 3 - Copy whole directories with *scp -r***
+The third option is Copy Whole Directories with *scp -r*.
