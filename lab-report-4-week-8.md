@@ -7,5 +7,5 @@ Here is my repository:
 Here is the one I reviewed in Week 7:
 [https://github.com/calistajlee/lab6-markdown-parser](https://github.com/calistajlee/lab6-markdown-parser)
 
-### **Test 1**
+### **Test for Snippet 1**
 The 
