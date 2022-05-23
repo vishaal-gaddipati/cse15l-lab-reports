@@ -61,4 +61,7 @@ Here is the output for my implementation.
 Here is the output for the implementation I reviewed in Week 7.
 ![Image](https://github.com/vishaal-gaddipati/cse15l-lab-reports/blob/main/Screenshots/Lab%204/otherOutput3.jpg?raw=true)
 
-I think the code change that would make the program work for snippet 3 would be to ignore the line breaks. This could be looking for a "." in each url possibly. This is a more involved change however, as the whole method would need to be overhauled.
+I think the code change that would make the program possibly work for snippet 3 would be to ignore the line breaks. This could be done by replacing the line breaks in the markdown string. This is a less involved change however, and could be done like so:
+```
+markdown.replaceAll("\n", "");
+```
