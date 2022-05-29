@@ -11,7 +11,7 @@ Here is the one I reviewed in Week 7:
 Snippet 1 should produce the output:
 
 ```
-[url.com, google.com, google.com, ucsd.edu]
+[url.com, `google.com, google.com, ucsd.edu]
 ```
 
 Here is the test I created below.
@@ -30,7 +30,7 @@ I think the code change that would make the program work for snippet 1 would be 
 Snippet 2 should produce the output:
 
 ```
-[a.com, b.com, a.com, example.com]
+[b.com, a.com(()), example.com]
 ```
 
 Here is the test I created below.
